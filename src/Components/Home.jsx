@@ -1,9 +1,15 @@
-import mypic from '../assets/Picture1.jpg';
+// import mypic from '../assets/Picture1.jpg';
 function Home() {
-
-    const handleResume=()=>{
-        window.location.href="../assets/Gopika_CV_2024_V1.5.pdf";
-    }
+const handleResume=()=>{
+  const pdfUrl = "../assets/Gopika_Resume.pdf";
+  const link = document.createElement("a");
+  link.href = pdfUrl;
+  link.download = "document.pdf"; // specify the filename
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+  
   return (
     <div className="bg-black text-white">
       <div className="flex">
@@ -13,13 +19,13 @@ function Home() {
           <p className='font-mono text-xl'><strong>Full-Stack Developer</strong></p>
           <div className="py-5">
          
-            <a className='bg-black p-3 text-white border-1 border-solid rounded-md' href='../assets/Gopika_CV_2024_V1.5.pdf' download={'Gopika_Resume.pdf'}>Get Resume</a>
+            <button className='bg-black p-3 text-white border-1 border-solid rounded-md' onClick={handleResume}>Get Resume</button>
          
           </div>
          
         </div>
         <div className="py-20">
-          <img src={mypic} />
+          {/* <img src={mypic} /> */}
         </div>
       </div>
     </div>
