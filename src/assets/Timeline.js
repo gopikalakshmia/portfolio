@@ -19,21 +19,11 @@ const timeLineElements = [
     type:"work",
     skills:
       "ASP.Net, MVC, SQL, TypeScript, JSON, AJAX, Entity Framework, GIT, TFS, IIS and SSRS",
-    activity: `Designed and developed a web application using TypeScript, HTML, CSS, Bootstrap, and SQL,
-    Implemented JSON, AJAX, LINQ, Entity Framework, and the Repository Pattern during the web application’s development,
+    activity: `Designed and developed a web application using TypeScript, HTML, CSS, Bootstrap, and SQL.
+    Utilized SSRS for automating repetitive monthly reports, resulting in a 50% reduction in the number of reports
     Designed and created tables and stored procedures using SQL Server.`,
   },
-  {
-    id: 3,
-    company: "COGNIZANT TECHNOLOGY SOLUTIONS",
-    location:"Coimbatore,India",
-    role: "Software Developer",
-    type:"work",
-    date: "2019-2019",
-    skills: "Sybase, SQL and SSRS ",
-    activity: `Utilized SSRS for automating repetitive monthly reports, resulting in a 50% reduction in the number of reports,
-•	Developed efficient stored procedures, customized functions, view tables, and triggers with over 20 parameters using SQL for report creation.`,
-  },
+  
   {
     id: 4,
     company: "COGNIZANT TECHNOLOGY SOLUTIONS",
@@ -45,17 +35,6 @@ const timeLineElements = [
     activity: `Coordinate with teams and resolve all complex applications and system issues,Ensuring effective front end and back-end 
     functionality of application,Implementation of application performance improvements by coordinating with the development team, 
     internal users and the customers.`,
-  },
-  {
-    id: 5,
-    company: "",
-    type:"work",
-    date: "2020-2022",
-    role: "Career Break",
-    location:"Glendale,USA",
-    skills: "",
-    activity: `Relocated to a new country to prioritize the establishment of my family.
-•	Utilized the available time to acquire certifications and enhance my existing skills while simultaneously exploring new ones. `,
   },
   {
     id: 6,
