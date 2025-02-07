@@ -2,33 +2,32 @@ const timeLineElements = [
   {
     id: 1,
     company: "Amrita Vishwa Vidyaapetham",
-    location:"Kollam,India",
+    location: "Kollam,India",
     role: "",
     date: "2010-2014",
-    type:"college",
-    skills:
-      "Electronics and Communication",
+    type: "college",
+    skills: "Electronics and Communication",
     activity: ``,
   },
   {
     id: 2,
     company: "COGNIZANT TECHNOLOGY SOLUTIONS",
-      location:"Coimbatore,India",
+    location: "Coimbatore,India",
     role: "Software Developer",
     date: "2015-2018",
-    type:"work",
+    type: "work",
     skills:
       "ASP.Net, MVC, SQL, TypeScript, JSON, AJAX, Entity Framework, GIT, TFS, IIS and SSRS",
     activity: `Designed and developed a web application using TypeScript, HTML, CSS, Bootstrap, and SQL.
     Utilized SSRS for automating repetitive monthly reports, resulting in a 50% reduction in the number of reports
     Designed and created tables and stored procedures using SQL Server.`,
   },
-  
+
   {
     id: 4,
     company: "COGNIZANT TECHNOLOGY SOLUTIONS",
-    location:"Coimbatore,India",
-    type:"work",
+    location: "Coimbatore,India",
+    type: "work",
     role: "Application Support and Maintenance/Team Member",
     date: "2019-2020",
     skills: "ASP.Net, MVC, SQL, WCF, ORACLE, IREPORT, MS Access ",
@@ -39,8 +38,8 @@ const timeLineElements = [
   {
     id: 6,
     company: "SIG24 CHARITABLE TRUST",
-    location:"Glendale,USA",
-    type:"work",
+    location: "Glendale,USA",
+    type: "work",
     role: "Freelance Developer",
     date: "2022-2022",
     skills:
@@ -53,8 +52,8 @@ const timeLineElements = [
     id: 7,
     date: "2023-Present",
     role: "Career-Break",
-    type:"work",
-    location:"Vaughan,Canada",
+    type: "work",
+    location: "Vaughan,Canada",
     skills: " ",
     activity: `Voluntarily ceased working to raise a child who no longer requires full-time support, and I am now eager to resume my professional career.
 Currently Engaged in React courses and Creating Projects
