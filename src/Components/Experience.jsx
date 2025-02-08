@@ -6,7 +6,7 @@ function Experience() {
     return ( <div className="bg-black text-white text-base sm:text-lg ">
         
         <div className="justify-self-center">
-         <h1 className="text-2xl align-middle  mb-5 flex"><img src={exp} className='size-7'/>{`  Experience & Education`}</h1>
+         <h1 className="text-2xl align-middle  mb-5 flex justify-center"><img src={exp} className='size-7'/>{`  Experience & Education`}</h1>
             {timeLineElements.map((exp)=>{
                 return(<div key={exp.id} className=" flex flex-initial  ">
                     <div className="p-5 w-1/5">{exp.date}</div>

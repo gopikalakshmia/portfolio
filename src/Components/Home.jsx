@@ -1,4 +1,4 @@
-// import mypic from '../assets/Picture1.jpg';
+import mypic from '../assets/Picture1.jpg';
 function Home() {
 const handleResume=()=>{
   const pdfUrl = "../assets/Gopika_Resume.pdf";
@@ -25,7 +25,7 @@ const handleResume=()=>{
          
         </div>
         <div className="py-20">
-          {/* <img src={mypic} /> */}
+          <img src={mypic}  className='w-xl'/>
         </div>
       </div>
     </div>
