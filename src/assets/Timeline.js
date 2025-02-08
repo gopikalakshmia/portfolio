@@ -48,18 +48,7 @@ const timeLineElements = [
 
 `,
   },
-  {
-    id: 7,
-    date: "2023-Present",
-    role: "Career-Break",
-    type: "work",
-    location: "Vaughan,Canada",
-    skills: " ",
-    activity: `Voluntarily ceased working to raise a child who no longer requires full-time support, and I am now eager to resume my professional career.
-Currently Engaged in React courses and Creating Projects
-
-`,
-  },
+  
 ];
 
 export default timeLineElements.reverse();

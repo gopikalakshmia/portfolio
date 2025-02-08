@@ -4,17 +4,19 @@ import Experience from './Components/Experience';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Skills from './Components/Skills';
+import Project from './Components/Project';
 
 function App() {
  
 
   return (
-    <div>
+    <div className='bg-black font-sans'>
      <Navbar/>
      <Home/>
      <About/>
-     <Experience/>
      <Skills/>
+     <Experience/>
+    <Project/>
     </div>
   )
 }
