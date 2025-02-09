@@ -1,11 +1,8 @@
-import mypic from "../assets/picture1.jpg";
+
 import bgvideo from "../assets/bg5.mp4";
-import github from "../assets/github.png";
-import linkedin from "../assets/linkedin.png";
-import insta from "../assets/insta.jpg";
-import resume from '../assets/Gopika_Resume.pdf';
+import resume from "../assets/Gopika_Resume.pdf";
+import { connect } from "../assets/Connect.js";
 function Home() {
- 
   return (
     <div id="Home" className=" text-white">
       <video
@@ -32,19 +29,30 @@ function Home() {
             </p>
 
             <div className="py-5">
-              <a href={resume} download="Gopika_Resume" target='_blank'>
-              <button
-                className="bg-black p-3 text-white border-1 border-solid rounded-md"
-              >
-                Get Resume
-              </button>
+              <a href={resume} download="Gopika_Resume" target="_blank">
+                <button className="bg-black p-3 text-white border-1 border-solid rounded-md">
+                  Get Resume
+                </button>
               </a>
             </div>
           </div>
           <div className="py-20">
-          <img src={github} className='size-7'/>
-          <img src={linkedin} className='size-7'/>
-          <img src={insta} className='size-7'/>
+            {connect.map((item, index) => (
+              <div key={index}>
+                <button
+                  className=""
+                  onClick={() => {
+                    window.open(item.link);
+                  }}
+                >
+                  <img
+                    className="size-8"
+                    src={item.img}
+                    title={`Checkout my ${item.title}`}
+                  />
+                </button>
+              </div>
+            ))}
             {/* <img src={mypic}  className='w-xs rounded-full hover:border-r-20 hover:border-b-20 border-amber-500'/> */}
           </div>
         </div>
