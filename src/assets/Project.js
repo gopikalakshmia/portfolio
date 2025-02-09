@@ -1,8 +1,8 @@
-import angaadi from './Angaadi.png';
+
 export const Projects = [
   {
     title: "ECommerce App",
-    img:{angaadi},
+    img:`./images/Angaadi.png`,
     githubLink:'https://github.com/gopikalakshmia/CapstoneProject',
     skills: ` Created a website for online purchase of groceries. Angaadi/GroKart is
           a Simple basic Grocery Store. Includes Home Page,User Login/Logout,New
@@ -11,7 +11,7 @@ export const Projects = [
   },
   {
     title: "Portfolio",
-    img: {angaadi},
+    img: `./images/Angaadi.png`,
     githubLink:'https://github.com/gopikalakshmia/portfolio',
     skills: ` Created a website for personnel portfolio. It is developed  with React and Tailwind CSS`,
   },

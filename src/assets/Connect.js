@@ -1,17 +1,16 @@
-import github from "./github.png";
-import linkedin from "./linkedin.png";
+
 
 
 export const connect=[
   {
     title: "LinkedIn",
-    img:{linkedin},
+    img:`./images/github.png`,
      link:'https://www.linkedin.com/in/gopika-lakshmi-a1592460/',
   },
   {
     title: "GitHub",
-    img:{github},
+    img:"./images/linkedin.png",
     link:'https://github.com/gopikalakshmia',
-  },
+  }
   
 ]
