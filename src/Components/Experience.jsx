@@ -3,7 +3,7 @@ import  work from '../assets/work.jpg';
 import  edu from '../assets/education.jpg';
 import  exp from '../assets/exp.jpg';
 function Experience() {
-    return ( <div className="bg-black text-white text-base sm:text-lg ">
+    return ( <div id="Experience" className="bg-black text-white text-base sm:text-lg ">
         
         <div className="justify-self-center">
          <h1 className="text-2xl align-middle  mb-5 flex justify-center"><img src={exp} className='size-7'/>{`  Experience & Education`}</h1>

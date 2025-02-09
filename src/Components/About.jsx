@@ -1,6 +1,7 @@
 import  aboutme from '../assets/aboutme.png';
+import bgvideo from "../assets/bg5.mp4";
 function About() {
-    return ( <div className="font-sans bg-black text-white text-left flex">
+    return ( <div  id="About" className="font-sans  text-white text-left flex">
         <div className="p-15 p w-3/4" >
         <h1 className="text-2xl  text-justify mb-5 flex"><img src={aboutme} className='size-7'/>{`  About Me`}</h1>
         <p>Hi, with five years of experience as an ASP.NET developer at Cognizant,  I specialize in ASP.NET MVC, SSRS, SQL, and TypeScript.

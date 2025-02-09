@@ -5,7 +5,7 @@ import { skill } from "../assets/skills";
 
 function skills() {
   return (
-    <div className=" font-sans bg-black text-white  p-5 mb-5 ">
+    <div  id="Skills" className=" font-sans bg-black text-white  p-5 mb-5 ">
        <h1 className="text-2xl  text-justify mb-5 flex"><img src={skillsIcon} className='size-7'/>{`  Skills`}</h1>
       <div className="grid grid-cols-4">
         {skill.map((item, index) => {
