@@ -1,5 +1,4 @@
-
-import bgvideo from "../assets/bg5.mp4";
+import bgvideo from "../assets/bg6.mp4";
 import resume from "../assets/Gopika_Resume.pdf";
 import { connect } from "../assets/Connect.js";
 function Home() {
@@ -14,7 +13,7 @@ function Home() {
       ></video>
       <div
         className="relative flex items-center 
-        justify-center h-screen overflow-hidden "
+        justify-center h-screen overflow-hidden " 
       >
         <div className="flex">
           <div className="py-20 px-20 mb-20">
@@ -27,26 +26,26 @@ function Home() {
             <p className="font-mono text-xl">
               <strong>Full-Stack Developer</strong>
             </p>
-            <p className="p-2 flex flex-row">
-            {connect.map((item, index) => (
-              <div key={index} className="p-2">
-                <button
-                  className=""
-                  onClick={() => {
-                    window.open(item.link);
-                  }}
-                >
-                  <img
-                    className="size-8"
-                    src={item.img}
-                    title={`Checkout my ${item.title}`}
-                  />
-                </button>
-              </div>
-            ))}
-            {/* <img src={mypic}  className='w-xs rounded-full hover:border-r-20 hover:border-b-20 border-amber-500'/> */}
-          </p>
-            <div className="py-5">
+            <div className="p-2 flex flex-row">
+              {connect.map((item, index) => (
+                <div key={index} className="p-2">
+                  <button
+                    className=""
+                    onClick={() => {
+                      window.open(item.link);
+                    }}
+                  >
+                    <img
+                      className="size-8"
+                      src={item.img}
+                      title={`Checkout my ${item.title}`}
+                    />
+                  </button>
+                </div>
+              ))}
+              {/* <img src={mypic}  className='w-xs rounded-full hover:border-r-20 hover:border-b-20 border-amber-500'/> */}
+            </div>
+            <div className="p-1">
               <a href={resume} download="Gopika_Resume" target="_blank">
                 <button className="bg-black p-3 text-white border-1 border-solid rounded-md">
                   Get Resume
@@ -54,7 +53,6 @@ function Home() {
               </a>
             </div>
           </div>
-         
         </div>
       </div>
     </div>
