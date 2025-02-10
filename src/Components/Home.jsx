@@ -22,23 +22,14 @@ function Home() {
               <strong>Hey 👋! This is</strong>
             </p>
             <p className="font-mono text-5xl py-4">
-              <strong>Gopikalakshmi Asok Kumar</strong>
+              <strong>Gopikalakshmi </strong>
             </p>
             <p className="font-mono text-xl">
               <strong>Full-Stack Developer</strong>
             </p>
-
-            <div className="py-5">
-              <a href={resume} download="Gopika_Resume" target="_blank">
-                <button className="bg-black p-3 text-white border-1 border-solid rounded-md">
-                  Get Resume
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="py-20">
+            <p className="p-2 flex flex-row">
             {connect.map((item, index) => (
-              <div key={index}>
+              <div key={index} className="p-2">
                 <button
                   className=""
                   onClick={() => {
@@ -54,7 +45,16 @@ function Home() {
               </div>
             ))}
             {/* <img src={mypic}  className='w-xs rounded-full hover:border-r-20 hover:border-b-20 border-amber-500'/> */}
+          </p>
+            <div className="py-5">
+              <a href={resume} download="Gopika_Resume" target="_blank">
+                <button className="bg-black p-3 text-white border-1 border-solid rounded-md">
+                  Get Resume
+                </button>
+              </a>
+            </div>
           </div>
+         
         </div>
       </div>
     </div>

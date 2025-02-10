@@ -4,7 +4,7 @@ function About() {
     return ( <div  id="About" className="font-sans  text-white text-left flex">
         <div className="p-15 p w-3/4" >
         <h1 className="text-2xl  text-justify mb-5 flex"><img src={aboutme} className='size-7'/>{`  About Me`}</h1>
-        <p>Hi, with five years of experience as an ASP.NET developer at Cognizant,  I specialize in ASP.NET MVC, SSRS, SQL, and TypeScript.
+        <p>Hi  , with five years of experience as an ASP.NET developer at Cognizant,  I specialize in ASP.NET MVC, SSRS, SQL, and TypeScript.
          </p>
          <br/>
         <p>After taking a career break to focus on my family, I stayed connected to the tech world by earning certifications in UiPath and 
