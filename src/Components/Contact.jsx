@@ -22,7 +22,7 @@ function Contact() {
   };
   return (
     <div id="Contact" className="align-middle p-5 w-4xl ml-60 ">
-      <div className="text-white bg-gradient-to-r from-black-900  to-blue-400 border-gray-900 ">
+      <div className="text-white border-2 rounded-xs border-gray-900 p-3 ">
         <h1 className="text-2xl  text-justify mb-5  flex justify-center">
           <img src={mail} className="size-7" />
           {`  Get In Touch`}

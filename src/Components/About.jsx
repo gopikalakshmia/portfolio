@@ -2,7 +2,7 @@ import  aboutme from '../assets/aboutme.png';
 import { motion } from 'framer-motion';
 
 function About() {
-    return ( <div  id="About" className="font-sans mt-4  text-white text-left flex bg-gradient-to-r from-black-900  to-blue-400 h-screen p-18"
+    return ( <section  id="About" className="font-sans mt-4  text-white text-left flex bg-black h-screen p-18"
  
     >
         <div className="p-15 p w-3/4" >
@@ -26,7 +26,7 @@ function About() {
             <img src={'https://cdni.iconscout.com/illustration/premium/thumb/female-web-developer-writing-code-lines-illustration-download-in-svg-png-gif-file-formats--website-development-programming-business-activities-pack-illustrations-5501007.png'}/>
         </motion.div>
        
-    </div> );
+    </section> );
 }
 
 export default About;

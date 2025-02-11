@@ -1,4 +1,4 @@
-import bgvideo from "./assets/bg6.mp4";
+
 import About from './Components/About';
 import Experience from './Components/Experience';
 import Home from './Components/Home';
@@ -12,18 +12,9 @@ function App() {
 
   return (
     <div className='bg-black font-sans '>
-      <div className="">
-      <video
-        src={bgvideo}
-        autoPlay
-        loop
-        muted
-        className=" absolute min-h-screen max-w-screen"
-      ></video>
-      <Navbar/>
+      
       <Home/>
-      </div>
-    
+     
      <About/>
      <Skills/>
      <Experience/>

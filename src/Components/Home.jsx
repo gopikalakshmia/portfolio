@@ -1,10 +1,21 @@
 import resume from "../assets/Gopika_Resume.pdf";
 import { connect } from "../assets/Connect.js";
   import { motion, spring } from "framer-motion";
+  import Navbar from "./Navbar.jsx";
+  import bgvideo from "../assets/bg6.mp4";
+
+
 function Home() {
   return (
     <div id="Home" className=" text-white ">
-     
+     <video
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        className=" absolute min-h-screen max-w-screen"
+      ></video>
+      <Navbar/>
       <div
         className=" relative flex items-left 
         justify-left h-screen overflow-hidden " 
