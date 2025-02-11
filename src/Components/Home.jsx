@@ -1,26 +1,19 @@
-import bgvideo from "../assets/bg6.mp4";
 import resume from "../assets/Gopika_Resume.pdf";
 import { connect } from "../assets/Connect.js";
 function Home() {
   return (
-    <div id="Home" className=" text-white">
-      <video
-        src={bgvideo}
-        autoPlay
-        loop
-        muted
-        className="absolute min-w-full h-full "
-      ></video>
+    <div id="Home" className=" text-white ">
+     
       <div
-        className="relative flex items-center 
-        justify-center h-screen overflow-hidden " 
+        className="relative flex items-left 
+        justify-left h-screen overflow-hidden " 
       >
         <div className="flex">
           <div className="py-20 px-20 mb-20">
             <p className="font-mono text-2xl py-4">
               <strong>Hey 👋! This is</strong>
             </p>
-            <p className="font-mono text-5xl py-4">
+            <p className="font-mono text-6xl py-4">
               <strong>Gopikalakshmi </strong>
             </p>
             <p className="font-mono text-xl">
@@ -47,7 +40,7 @@ function Home() {
             </div>
             <div className="p-1">
               <a href={resume} download="Gopika_Resume" target="_blank">
-                <button className="bg-black p-3 text-white border-1 border-solid rounded-md">
+                <button className=" p-3 text-white border-1 border-solid font-bold rounded-md">
                   Get Resume
                 </button>
               </a>
