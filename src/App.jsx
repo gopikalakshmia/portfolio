@@ -11,14 +11,14 @@ function App() {
  
 
   return (
-    <div className='bg-black font-sans'>
-      <div>
+    <div className='bg-black font-sans '>
+      <div className="">
       <video
         src={bgvideo}
         autoPlay
         loop
         muted
-        className="absolute"
+        className=" absolute min-h-screen max-w-screen"
       ></video>
       <Navbar/>
       <Home/>

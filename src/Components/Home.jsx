@@ -1,11 +1,12 @@
 import resume from "../assets/Gopika_Resume.pdf";
 import { connect } from "../assets/Connect.js";
+  import { motion, spring } from "framer-motion";
 function Home() {
   return (
     <div id="Home" className=" text-white ">
      
       <div
-        className="relative flex items-left 
+        className=" relative flex items-left 
         justify-left h-screen overflow-hidden " 
       >
         <div className="flex">
@@ -40,9 +41,11 @@ function Home() {
             </div>
             <div className="p-1">
               <a href={resume} download="Gopika_Resume" target="_blank">
-                <button className=" p-3 text-white border-1 border-solid font-bold rounded-md">
+                <motion.button className=" p-3 text-white border-1 border-solid font-bold rounded-md" 
+                whileHover={{ scale:1.1 }}
+                transition={{ type:spring,stiffness:500 }}> 
                   Get Resume
-                </button>
+                </motion.button>
               </a>
             </div>
           </div>
