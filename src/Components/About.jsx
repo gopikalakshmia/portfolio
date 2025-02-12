@@ -2,7 +2,7 @@ import  aboutme from '../assets/aboutme.png';
 import { motion } from 'framer-motion';
 
 function About() {
-    return ( <section  id="About" className=" font-sans  text-white text-center  bg-black md:h-screen md:p-18 mt-4 md:text-left flex "
+    return ( <section  id="About" className=" font-sans  text-white text-center  bg-black md:h-screen md:p-18 md:mt-4 md:text-left flex "
  
     >
         <div className="text-xs  text-justify p-5 md:text-base md:w-3/4 lg:text-md" >

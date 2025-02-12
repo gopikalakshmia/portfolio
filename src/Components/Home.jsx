@@ -3,29 +3,24 @@ import { connect } from "../assets/Connect.js";
   import { motion, spring } from "framer-motion";
   import Navbar from "./Navbar.jsx";
   import bgvideo from "../assets/bg6.mp4";
+  import bgMob from "../assets/bgMob.mp4";
  
 
 
 function Home() {
   return (
-    <div id="Home" className=" text-white h-auto ">
+    <div id="Home" className=" text-white">
      <video
         src={bgvideo}
         autoPlay
         loop
         muted
-        className=" absolute  md:min-h-screen md:max-w-screen"
+        className=" max-sm:hidden absolute"
       ></video>
-      {/* <video
-        src={bgMobvideo}
-        autoPlay
-        loop
-        muted
-        className="  absolute "
-      ></video> */}
+      
       <Navbar/>
       <div
-        className="relative  md:flex items-left 
+        className="relative text-left  md:flex items-left 
         justify-left md:h-screen overflow-hidden " 
       >
         <div className="flex">
@@ -39,11 +34,11 @@ function Home() {
             <p className="font-mono text-xs md:text-xl">
               <strong>Full-Stack Developer</strong>
             </p>
-            <div className="p-2 flex flex-row">
+            <div className=" md:p-2 flex flex-row">
               {connect.map((item, index) => (
-                <div key={index} className="p-2">
+                <div key={index} className=" md:p-2">
                   <button
-                    className=""
+                    className="m-1"
                     onClick={() => {
                       window.open(item.link);
                     }}
