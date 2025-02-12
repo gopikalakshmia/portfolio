@@ -3,7 +3,7 @@ import { connect } from "../assets/Connect.js";
   import { motion, spring } from "framer-motion";
   import Navbar from "./Navbar.jsx";
   import bgvideo from "../assets/bg6.mp4";
-  import bgMob from "../assets/bgMob.mp4";
+
  
 
 

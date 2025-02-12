@@ -7,7 +7,7 @@ function About() {
     >
         <div className="text-xs  text-justify p-5 md:text-base md:w-3/4 lg:text-md" >
         <h1 className=" text-2xl md:text-justify  pb-2 md:mb-5 flex"><img src={aboutme} className='size-7'/>{`  About Me`}</h1>
-        <p>Hi  , with five years of experience as an ASP.NET developer at Cognizant,  I specialize in ASP.NET MVC, SSRS, SQL, and TypeScript.
+        <p>With five years of experience as an ASP.NET developer at Cognizant,  I specialize in ASP.NET MVC, SSRS, SQL, and TypeScript.
          </p>
          <br/>
         <p>After taking a career break to focus on my family, I stayed connected to the tech world by earning certifications in UiPath and 
