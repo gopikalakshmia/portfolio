@@ -2,11 +2,11 @@ import  aboutme from '../assets/aboutme.png';
 import { motion } from 'framer-motion';
 
 function About() {
-    return ( <section  id="About" className="font-sans mt-4  text-white text-left flex bg-black h-screen p-18"
+    return ( <section  id="About" className=" font-sans  text-white text-center  bg-black md:h-screen md:p-18 mt-4 md:text-left flex "
  
     >
-        <div className="p-15 p w-3/4" >
-        <h1 className="text-2xl  text-justify mb-5 flex"><img src={aboutme} className='size-7'/>{`  About Me`}</h1>
+        <div className="text-xs  text-justify p-5 md:text-base md:w-3/4 lg:text-md" >
+        <h1 className=" text-2xl md:text-justify  pb-2 md:mb-5 flex"><img src={aboutme} className='size-7'/>{`  About Me`}</h1>
         <p>Hi  , with five years of experience as an ASP.NET developer at Cognizant,  I specialize in ASP.NET MVC, SSRS, SQL, and TypeScript.
          </p>
          <br/>
@@ -19,7 +19,7 @@ function About() {
              <br/>
              <p>Excited for new opportunities and challenges—let’s connect 😀 </p><p>Back with a fresh set of eyes 👁</p>
         </div>
-        <motion.div className="w-2/4 "
+        <motion.div className="max-md:hidden md:visible w-2/4 "
            initial={{ opacity:0 }}
            whileInView={{ opacity:1 }}
            transition={{ duration:2 }}>

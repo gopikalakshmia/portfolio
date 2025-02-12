@@ -11,7 +11,7 @@ export const Projects = [
   },
   {
     title: "Portfolio",
-    img: `./images/Angaadi.png`,
+    img: `./images/portfolio.png`,
     githubLink:'https://github.com/gopikalakshmia/portfolio',
     skills: ` Created a website for personnel portfolio. It is developed  with React and Tailwind CSS`,
   },

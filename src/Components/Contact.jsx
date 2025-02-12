@@ -21,7 +21,7 @@ function Contact() {
       );
   };
   return (
-    <div id="Contact" className="align-middle p-5 w-4xl ml-60 ">
+    <div id="Contact" className="align-middle p-5 md:w-4xl md:ml-60 ">
       <div className="text-white border-2 rounded-xs border-gray-900 p-3 ">
         <h1 className="text-2xl  text-justify mb-5  flex justify-center">
           <img src={mail} className="size-7" />
@@ -29,21 +29,21 @@ function Contact() {
         </h1>
         <p>{`I'm actively looking for any new opportunities, my inbox is always open. Whether you have a question or want to hire me or just want to say hello, I'll try my best to get back to you!`}</p>
         <div>
-          <form ref={form} onSubmit={handleSubmit} className="ml-20">
+          <form ref={form} onSubmit={handleSubmit} className="md:ml-20">
             <div>
               <input
                 type="text"
                 placeholder={"FULL NAME"}
                 name="user_name"
                 required
-                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 w-xs h-9 m-3 p-2"
+                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 md:w-xs h-9 m-3 p-2"
               />
               <input
                 type="text"
                 placeholder={"EMAIL"}
                 required
                 name="user_email"
-                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 focus:border-blue-800 w-xs h-9 m-2 p-2"
+                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 focus:border-blue-800 md:w-xs h-9 m-3 p-2"
               />
             </div>
             <div>
@@ -52,16 +52,19 @@ function Contact() {
                 name="message"
                 required
                 defaultValue={"Hi Gopika,"}
-                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 focus:border-blue-800 w-2xl h-44 p-2 m-2"
+                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 focus:border-blue-800 md:w-2xl h-44 p-2 m-3"
               />
             </div>
+            <div className="p-1 m-2">
             <button
               type="submit"
-              className="bg-black p-3 text-white border-1 border-solid rounded-md"
+              className="bg-black p-2 text-white border-1 border-solid rounded-md"
             >
               {" "}
               Send Message
             </button>
+            </div>
+            
           </form>
         </div>
       </div>

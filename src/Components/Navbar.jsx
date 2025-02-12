@@ -1,11 +1,11 @@
-import { easeIn, easeInOut, easeOut, motion, MotionConfig, spring } from "framer-motion";
+import {  motion, MotionConfig } from "framer-motion";
 function Navbar() {
     return ( 
         
-       <nav className=" text-white w-full px-8 ">
+       <nav className="max-sm:hidden  text-white w-full px-8 ">
         <div className="flex relative items-left 
         justify-left  ">
-        <div className="flex flex-auto  font-extrabold py-6"
+        <div className="max-md:hidden flex flex-auto lg:font-extrabold  py-6"
         >{`< G O P I K A />`}</div>
         <MotionConfig  whileHover={{ scale:1.3 }}transition={{ type:"tween",stiffness:500 }}>
         <div className="flex flex-nowrap py-6  text-lg font-extrabold">
