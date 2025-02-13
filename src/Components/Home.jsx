@@ -9,32 +9,33 @@ import { connect } from "../assets/Connect.js";
 
 function Home() {
   return (
-    <div id="Home" className=" text-white">
+    <div id="Home" className="relative w-full h-screen text-white">
      <video
         src={bgvideo}
         autoPlay
         loop
         muted
-        className=" max-sm:hidden absolute"
+        className=" absolute top-0 left-0 w-full h-full object-cover"
       ></video>
-      
+       {/* Dark Overlay (Optional) */}
+       <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div>
       <Navbar/>
       <div
-        className="relative text-left  md:flex items-left 
+        className="relative text-center p-15  md:flex lg:text-left items-left 
         justify-left md:h-screen overflow-hidden " 
       >
         <div className="flex">
-          <div className="p-5 md:py-20 md:px-20 md:mb-20">
-            <p className="font-mono text-xs lg:text-2xl  md:py-4">
+          <div className="p-7 pt-40 md:py-20 md:px-20 md:mb-20">
+            <p className="font-mono text-md lg:text-2xl  md:py-4">
               <strong>Hey 👋! This is</strong>
             </p>
             <p className="font-mono text-2xl lg:text-6xl md:text-6xl md:py-4 ">
               <strong>Gopikalakshmi </strong>
             </p>
-            <p className="font-mono text-xs md:text-xl">
+            <p className="font-mono text-sm md:text-xl">
               <strong>Full-Stack Developer</strong>
             </p>
-            <div className=" md:p-2 flex flex-row">
+            <div className="justify-center lg:justify-start md:p-2 flex flex-row ">
               {connect.map((item, index) => (
                 <div key={index} className=" md:p-2">
                   <button
