@@ -1,6 +1,7 @@
 import dev from '../assets/dev.jpg';
 import github from '../assets/github.png';
 import { Projects } from '../assets/Project';
+import { motion, spring } from "framer-motion";
 function Project() {
   return (
     <div id="Project" className=" font-sans bg-black text-white p-5  md:p-15 md:mb-5">
@@ -8,7 +9,12 @@ function Project() {
       <div className='grid grid-col-1 p-3 md:grid-cols-2 lg:grid-cols-3 md:p-2 m-5 '>
       {Projects.map((item,index)=>{
         return(
-          <div key={index} className='bg-gray-900 mb-2  w-80 md: md:p-2.5 m-5 rounded-sm'>
+          <motion.div key={index} className='bg-gray-900 mb-2  w-80 md: md:p-2.5 m-5 rounded-sm'
+          initial={{ opacity: 0, y: 50 }} // Start hidden and below
+            whileInView={{ opacity: 1, y: 0 }} // Animate when scrolled into view
+            transition={{ duration: 0.5, delay: index * 0.2 }} // Stagger effect
+            whileHover={{ scale: 1.05 }} // Hover effect
+         >
         <img src={item.img} className=''/>
         <div className=''>
         <h1 className='text-sm font-bold'>{item.title}</h1>
@@ -18,7 +24,7 @@ function Project() {
         </div>
         
         <button  className='' onClick={()=>{window.open(item.githubLink)}}><img className='size-8' src={github} title="Checkout GitHub"/></button>
-      </div>
+      </motion.div>
 
         )})}
       

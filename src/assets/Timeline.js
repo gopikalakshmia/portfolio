@@ -3,7 +3,7 @@ const timeLineElements = [
     id: 1,
     company: "Amrita Vishwa Vidyaapetham",
     location: "Kollam,India",
-    role: "",
+    role: "Bachelor's Degree",
     date: "2010-2014",
     type: "college",
     skills: "Electronics and Communication",
