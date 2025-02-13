@@ -13,6 +13,7 @@ function Contact() {
       .then(
         (result) => {
           console.log(result, "SUCCESS!");
+          alert("Email Send Successfully !!!")
           e.target.reset();
         },
         (error) => {
@@ -21,7 +22,7 @@ function Contact() {
       );
   };
   return (
-    <div id="Contact" className="align-middle p-5 md:w-4xl md:ml-60 ">
+    <div id="Contact" className="align-middle p-5 md:w-4xl ">
       <div className="text-white border-2 rounded-xs border-gray-900 p-3 ">
         <h1 className="text-2xl  text-justify mb-5  flex justify-center">
           <img src={mail} className="size-7" />
@@ -52,15 +53,15 @@ function Contact() {
                 name="message"
                 required
                 defaultValue={"Hi Gopika,"}
-                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 focus:border-blue-800 md:w-2xl h-44 p-2 m-3"
+                className="border-1 rounded-sm border-grey-900 hover:border-blue-800 focus:border-blue-800  md:w-2xl h-44 p-2 m-3"
               />
             </div>
             <div className="p-1 m-2">
             <button
               type="submit"
-              className="bg-black p-2 text-white border-1 border-solid rounded-md"
+              className="bg-black p-2 text-white border-1 border-solid rounded-md  hover:border-blue-800 focus:border-blue-800 "
             >
-              {" "}
+              
               Send Message
             </button>
             </div>
