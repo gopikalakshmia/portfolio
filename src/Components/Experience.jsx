@@ -5,7 +5,7 @@ import exp from "../assets/exp.jpg";
 import { motion } from "framer-motion";
 function Experience() {
   return (
-    <div
+    <section
       id="Experience"
       className="pt-7  bg-black  text-white text-base sm:text-lg "
     >
@@ -43,9 +43,11 @@ function Experience() {
                       exp.role ? exp.role : ""
                     } ,  ${exp.location ? exp.location : ""}`}</div>
                     <div className="text-[.6rem] md:text-sm">
-                      {exp.activity ? exp.activity : ""}
+                      {exp.activity ? 
+                      exp.activity.map((act,index)=><li key={index}>{act}</li>) :
+                       ""}
                     </div>
-                    <div className="text-[.6rem] md:text-xs">{` ${
+                    <div className="text-[.6rem] md:text-xs pt-2 text-amber-100">{`Focus : ${
                       exp.skills ? exp.skills : ""
                     }`}</div>
                   </motion.div>
@@ -67,7 +69,7 @@ function Experience() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 

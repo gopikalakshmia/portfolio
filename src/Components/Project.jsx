@@ -6,10 +6,10 @@ function Project() {
   return (
     <div id="Project" className=" font-sans bg-black text-white p-5  md:p-15 md:mb-5">
             <h1 className="text-2xl align-middle  mb-5 flex"><img src={dev} className='size-7'/>{`  Projects`}</h1>
-      <div className='grid grid-col-1 p-3 md:grid-cols-2 lg:grid-cols-3 md:p-2 m-5 '>
+      <div className='grid grid-col-1  md:grid-cols-2 lg:grid-cols-3 md:p-2 m-5 '>
       {Projects.map((item,index)=>{
         return(
-          <motion.div key={index} className='bg-gray-900 mb-2  w-80 md: md:p-2.5 m-5 rounded-sm'
+          <motion.div key={index} className='bg-gray-900 m-0.5 mb-2  w-80 md:p-2.5 md:m-5 rounded-sm'
           initial={{ opacity: 0, y: 50 }} // Start hidden and below
             whileInView={{ opacity: 1, y: 0 }} // Animate when scrolled into view
             transition={{ duration: 0.5, delay: index * 0.2 }} // Stagger effect

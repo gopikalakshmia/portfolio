@@ -22,7 +22,7 @@ function Contact() {
       );
   };
   return (
-    <div id="Contact" className="align-middle p-5 md:w-4xl ">
+    <div id="Contact" className="justify-self-center p-5 md:w-4xl ">
       <div className="text-white border-2 rounded-xs border-gray-900 p-3 ">
         <h1 className="text-2xl  text-justify mb-5  flex justify-center">
           <img src={mail} className="size-7" />
