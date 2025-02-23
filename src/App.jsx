@@ -2,7 +2,7 @@
 import About from './Components/About';
 import Experience from './Components/Experience';
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 import Skills from './Components/Skills';
 import Project from './Components/Project';
 import Contact from './Components/Contact';
@@ -20,6 +20,7 @@ function App() {
      <Experience/>
     <Project/>
     <Contact/>
+    <Footer/>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function About() {
     
-    return ( <motion.section  id="About" className=" font-sans  text-white text-center  bg-black md:h-screen md:p-18 md:mt-4 md:text-left flex "
+    return ( <motion.section  id="About" className=" font-sans  text-white text-center  bg-black  md:p-18 md:mt-4 md:text-left flex "
         initial={{ opacity: 0.3, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }} // Animates when in view
         transition={{ duration: .8 }}

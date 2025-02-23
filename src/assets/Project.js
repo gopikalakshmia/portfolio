@@ -24,4 +24,10 @@ export const Projects = [
     githubLink:'https://github.com/gopikalakshmia/ChatbotSocketIO',
     skills: `Developed a Chatbot with SocketIO.`,
   },
+  {
+    title: "Todo App",
+    img: `./images/Todo.jpg`,
+    githubLink:'https://github.com/gopikalakshmia/TODOAPP',
+    skills: `Created a TodoApp in both React and Angular framework.`,
+  },
 ];
