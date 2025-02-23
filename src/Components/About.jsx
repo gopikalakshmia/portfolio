@@ -20,7 +20,7 @@ function About() {
              <p>Currently upskilling in React through various courses to stay ahead in the ever-evolving tech landscape. 
                 I love learning new technologies and applying them to build efficient, scalable solutions. </p>
              <br/>
-             <p>Excited for new opportunities and challenges—let’s connect 😀 </p><p>Back with a fresh set of eyes 👁</p>
+             <p>I am back with a fresh set of eyes, excited for new opportunities and challenges—let’s connect 😀 </p>
         </div>
         <motion.div className="max-md:hidden md:visible w-2/4 "
            initial={{ opacity:0 }}

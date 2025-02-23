@@ -25,7 +25,7 @@ export const Projects = [
     skills: `Developed a Chatbot with SocketIO.`,
   },
   {
-    title: "Todo App",
+    title: "To-do App",
     img: `./images/Todo.jpg`,
     githubLink:'https://github.com/gopikalakshmia/TODOAPP',
     skills: `Created a TodoApp in both React and Angular framework.`,
