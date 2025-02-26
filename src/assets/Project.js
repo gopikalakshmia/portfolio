@@ -22,12 +22,18 @@ export const Projects = [
     title: "Chat Bot",
     img: `./images/chatbot.png`,
     githubLink:'https://github.com/gopikalakshmia/ChatbotSocketIO',
-    skills: `Developed a Chatbot with SocketIO.`,
+    skills: `Developed a Chatbot for a salon with SocketIO`,
   },
   {
     title: "To-do App",
     img: `./images/Todo.jpg`,
     githubLink:'https://github.com/gopikalakshmia/TODOAPP',
-    skills: `Created a TodoApp in both React and Angular framework.`,
+    skills: `Developed a To-doApp using both React and Angular frameworks to create a to-do list for daily life.`,
+  },
+  {
+    title: "Weather App",
+    img: `./images/weather.jpg`,
+    githubLink:'https://github.com/gopikalakshmia/weatherapp-react',
+    skills: `Developed a Weather App using  React,custom hooks and OpenWeather API`,
   },
 ];
