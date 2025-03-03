@@ -34,6 +34,6 @@ export const Projects = [
     title: "Weather App",
     img: `./images/weather.jpg`,
     githubLink:'https://github.com/gopikalakshmia/weatherapp-react',
-    skills: `Developed a Weather App using  React,custom hooks and OpenWeather API`,
+    skills: `A weather application built with React,custom hooks,OpenWeather API,and Gemini AI for generating weather summaries`,
   },
 ];
