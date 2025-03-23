@@ -43,6 +43,17 @@ const timeLineElements = [
       [`Mongo DB, Express JS, React JS, Node JS, Redux, GitHub, Tailwind CSS, JavaScript ,Framer Motion and REST API.`],
     activity: ["Developed web applications using React JS, Express JS, Node JS and Mongo DB."]
   },
+  {
+    id: 6,
+    company: "Catchafire",
+    location: "Remote",
+    type: "work",
+    role: "Web Application Developer/Adviser",
+    date: "2025-Present",
+    skills:
+      [`Next JS,React and Contentful`],
+    activity: ["Contributed to developing a Next.js and React-based web application for a nonprofit organization."]
+  },
   
 ];
 
