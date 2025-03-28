@@ -36,4 +36,11 @@ export const Projects = [
     githubLink:'https://github.com/gopikalakshmia/weatherapp-react',
     skills: `Independent weather applications developed in React (featuring custom hooks, OpenWeather API, and Gemini AI integration) and Angular (utilizing OpenWeather API and Gemini AI)`,
   },
+  {
+    title: "Tic-Tac-Toe",
+    img: `./images/tictactoe.png`,
+    githubLink:'https://github.com/gopikalakshmia/tic-tac-toe',
+    visit:'https://tic-tac-lubtc1lnj-gopikas-projects-e7cef3f0.vercel.app/',
+    skills: `Tic Tac Toe React app is a dynamic and interactive game built with React, featuring a responsive UI, game state management, and logic to determine the winner or a draw.`,
+  },
 ];

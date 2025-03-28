@@ -1,7 +1,8 @@
 import dev from '../assets/dev.jpg';
 import github from '../assets/github.png';
+import openWindow from '../assets/openWindow.png';
 import { Projects } from '../assets/Project';
-import { motion, spring } from "framer-motion";
+import { motion } from "framer-motion";
 function Project() {
   return (
     <div id="Project" className=" font-sans bg-black text-white p-5  md:p-15 md:mb-5">
@@ -22,7 +23,7 @@ function Project() {
           {item.skills}
         </p>
         </div>
-        
+        {item.visit &&<button  className='' onClick={()=>{window.open(item.visit)}}><img className='size-8 p-1' src={openWindow} title="Checkout Website"/></button>}
         <button  className='' onClick={()=>{window.open(item.githubLink)}}><img className='size-8' src={github} title="Checkout GitHub"/></button>
       </motion.div>
 
