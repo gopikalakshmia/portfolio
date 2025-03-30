@@ -40,7 +40,7 @@ export const Projects = [
     title: "Tic-Tac-Toe",
     img: `./images/tictactoe.png`,
     githubLink:'https://github.com/gopikalakshmia/tic-tac-toe',
-    visit:'https://tic-tac-lubtc1lnj-gopikas-projects-e7cef3f0.vercel.app/',
+    visit:'https://tic-tac-toe-hobbyproject.vercel.app/',
     skills: `Tic Tac Toe React app is a dynamic and interactive game built with React, featuring a responsive UI, game state management, and logic to determine the winner or a draw.`,
   },
 ];
