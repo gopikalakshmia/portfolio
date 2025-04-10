@@ -1,22 +1,22 @@
-
 export const skill = [
-  { title: "Programming Language", skills: "(C#, JavaScript, TypeScript)",img:`./images/js.jpg` },
+  { title: "Frontend Development", skills: "(React.js, Next.js, Angular, Redux, Tailwind CSS, Bootstrap, Razor, HTML, AJAX, CSS)", img: `./images/js.jpg` },
   {
-    title: "Frameworks",
-    skills: "( ASP.NET MVC, React, Angular, Express JS )",img:`./images/react.jpg` 
+    title: "Backend Development",
+    skills: "(ASP.NET, MVC, .NET Core MVC, Node.js, Express.js, Web API)", img: `./images/react.jpg`
   },
-  { title: "API Development", skills: "( RESTful APIs, JSON )" ,img:`./images/api.jpg`},
-  { title: "Version Control", skills: "( Git, GitHub,TFS )",img:`./images/github.png` },
-  { title: "Cloud Computing", skills: "( AWS )",img:`./images/aws.jpg` },
+  { title: "API Development", skills: "(RESTful APIs, AI APIs, JSON)", img: `./images/api.jpg` },
+  { title: "Version Control", skills: "(Git, GitHub, TFS)", img: `./images/github.png` },
+  { title: "Cloud Computing", skills: "(AWS, Vercel, Firebase)", img: `./images/aws.jpg` },
   {
     title: "Database Technologies",
-    skills:
-      "( MSSQL, MYSQL, ORACLE, SYBASE, Entity Framework, LINQ, Mongo DB )",img:`./images/db.jpg` 
+    skills: "(MSSQL, MySQL, Oracle, MS Access, MongoDB, Entity Framework, NHibernate, LINQ)", img: `./images/db.jpg`
   },
   {
     title: "Web Technologies",
-    skills: "( HTML, CSS, Bootstrap, Tailwind CSS )",img:`./images/db.jpg` 
+    skills: "(HTML, CSS, Bootstrap, Tailwind CSS)", img: `./images/db.jpg`
   },
-  { title: "Reporting Tools", skills: "( SSRS, Crystal Reports, IReport )" ,img:`./images/report.jpg` },
-  { title: "CI/CD Tools", skills: "( Docker, Jenkins )"  ,img:`./images/docker.jpg`},
+  { title: "Reporting Tools", skills: "(SSRS, Crystal Reports, IReport)", img: `./images/report.jpg` },
+  { title: "CI/CD Tools", skills: "(Docker, Kubernetes, Jenkins)", img: `./images/docker.jpg` },
+  { title: "Testing & QA", skills: "(Jest, React Testing Library)", img: `./images/test.jpg` },
+  { title: "ORM & Querying", skills: "(Entity Framework, NHibernate)", img: `./images/orm.jpg` }
 ];

@@ -20,6 +20,8 @@ function About() {
              <p>Currently upskilling in React through various courses to stay ahead in the ever-evolving tech landscape. 
                 I love learning new technologies and applying them to build efficient, scalable solutions. </p>
              <br/>
+             <p>I am also actively volunteering as a web developer with Catchafire and VolunteerMatch, contributing to nonprofit projects and using my skills to make a positive impact in the community. </p>
+             <br/>
              <p>I am back with a fresh set of eyes, excited for new opportunities and challenges—let’s connect 😀 </p>
         </div>
         <motion.div className="max-md:hidden md:visible w-2/4 "

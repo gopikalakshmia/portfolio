@@ -20,7 +20,7 @@ function Experience() {
               <div key={exp.id} className=" flex flex-initial  ">
                 <div className="max-sm:hidden md:p-5 md:w-1/5">{exp.date}</div>
                 {exp.type === "work" ? (
-                  <div className="max-sm:hidden md: bg-orange-300 w-px h-51 border-.5 translate-x-10 translate-y-10 opacity-30"></div>
+                  <div className="max-sm:hidden md: bg-orange-300 w-px h-60 border-.5 translate-x-10 translate-y-10 opacity-30"></div>
                 ) : (
                   ""
                 )}
