@@ -1,9 +1,6 @@
 
-import skillsIcon from '../assets/skills.jpg'
-
-import { skill } from "../assets/skills";
-
-
+import skillsIcon from '../assets/Images/skills.jpg'
+import { skill } from "../assets/JS/skills";
 import { motion } from 'framer-motion';
 function skills() {
   return (

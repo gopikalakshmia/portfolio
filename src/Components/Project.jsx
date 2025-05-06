@@ -1,7 +1,7 @@
-import dev from '../assets/dev.jpg';
-import github from '../assets/github.png';
-import openWindow from '../assets/openWindow.png';
-import { Projects } from '../assets/Project';
+import dev from '../assets/Images/dev.jpg';
+import github from '../assets/Images/github.png';
+import openWindow from '../assets/Images/openWindow.png';
+import { Projects } from '../assets/JS/Project';
 import { motion } from "framer-motion";
 function Project() {
   return (

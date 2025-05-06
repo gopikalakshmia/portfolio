@@ -18,7 +18,7 @@ const timeLineElements = [
     type: "work",
     skills:
       "Angular, ASP.Net, MVC, SQL, TypeScript, JSON, AJAX, Entity Framework, GIT, NHibernate, MSSQL, HTML, Bootstrap, TFS, IIS, Service Now and SSRS",
-    activity:["Designed and developed a web application using TypeScript, HTML, CSS, Bootstrap, and SQL","Utilized SSRS for automating repetitive monthly reports, resulting in a 50% reduction in the number of reports","Designed and created tables and stored procedures using SQL Server"]
+    activity:[]
     ,
   },
 
@@ -34,14 +34,26 @@ const timeLineElements = [
   // },
   {
     id: 6,
-    company: "SIG24 CHARITABLE TRUST,Catchafire and VolunteerMatch",
+    company: "SIG24 CHARITABLE TRUST and Catchafire",
     location: "Remote",
+    link:"https://www.catchafire.org/profiles/3212797/about",
     type: "work",
     role: "Freelance Developer",
     date: "2022-Present",
     skills:
       [`Mongo DB, Express JS, React JS, Node JS, Redux, GitHub, Tailwind CSS, JavaScript ,Framer Motion and REST API.`],
-    activity: ["provide freelance and pro bono web development services to nonprofit organizations, focusing on enhancing digital presence, optimizing websites, managing content, and improving user experience by developing full-stack applications with React.js, Node.js, Express.js, and MongoDB, while utilizing tools like Docker, Jenkins, and GitHub to streamline development and deployment processes"]
+    activity: []
+  },
+  {
+    id: 7,
+    company: "OneCommunityGlobal.org",
+    location: "Remote",
+    link:"https://onecommunityglobal.org/",
+    type: "work",
+    role: "Open Source Contributor",
+    date: "2025-Present",
+    skills:
+      [`Mongo DB, Express JS, React JS, Node JS, Redux, GitHub, Tailwind CSS, JavaScript ,Framer Motion and REST API.`],
   },
   // {
   //   id: 6,

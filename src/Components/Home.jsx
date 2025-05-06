@@ -1,8 +1,8 @@
-import resume from "../assets/Gopika_Resume.pdf";
-import { connect } from "../assets/Connect.js";
+import resume from "../assets/Files/Gopika_Resume.pdf";
+import { connect } from "../assets/JS/Connect.js";
   import { motion, spring } from "framer-motion";
   import Navbar from "./Navbar.jsx";
-  import bgvideo from "../assets/bg6.mp4";
+  import bgvideo from "../assets/Video/bg6.mp4";
 
  
 

@@ -1,4 +1,4 @@
-import  aboutme from '../assets/aboutme.png';
+import  aboutme from '../assets/Images/aboutme.png';
 import { motion } from 'framer-motion';
 
 function About() {

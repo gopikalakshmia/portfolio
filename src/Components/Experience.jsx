@@ -1,7 +1,7 @@
-import timeLineElements from "../assets/Timeline";
-import work from "../assets/work.jpg";
-import edu from "../assets/education.jpg";
-import exp from "../assets/exp.jpg";
+import timeLineElements from "../assets/JS/Timeline";
+import work from "../assets/Images/blueball.png";
+import edu from "../assets/Images/education.jpg";
+import exp from "../assets/Images/exp.jpg";
 import { motion } from "framer-motion";
 function Experience() {
   return (
@@ -20,21 +20,25 @@ function Experience() {
               <div key={exp.id} className=" flex flex-initial  ">
                 <div className="max-sm:hidden md:p-5 md:w-1/5">{exp.date}</div>
                 {exp.type === "work" ? (
-                  <div className="max-sm:hidden md: bg-orange-300 w-px h-60 border-.5 translate-x-10 translate-y-10 opacity-30"></div>
+                 <motion.div
+                 initial={{ scaleY: 0 }}
+                 whileInView={{ scaleY: 1 }}
+                 transition={{ duration: 2, ease: "easeInOut" }}
+                 viewport={{ once: true, amount: 0.4 }} // adjust `amount` as needed
+                 className="origin-top w-px h-20 bg-gradient-to-b from-blue-800 to-blue-950 opacity-80 translate-x-11 translate-y-18 mx-auto md:block hidden"
+               />
+               
                 ) : (
                   ""
                 )}
                 <img
                   src={exp.type === "work" ? work : edu}
-                  className="max-sm:hidden md:w-12 h-8 m-5 "
+                  className=" max-sm:hidden md:w-12 w-10 h-10 m-5 "
                 />
 
                 {exp.type === "work" ? (
-                  <motion.div
+                  <div
                     className="ml-8 mb-5 p-5 border-1 w-xs  md:w-2xl md:m-4  bg-dark md:p-3.5 md:text-left border-blue-950 md:border-4 rounded-sm "
-                    initial={{ opacity: 0, x: 60 }} // Slide left or right alternately
-                    whileInView={{ opacity: 1, x: 0 }} // Animate when in view
-                    transition={{ duration: 0.5, delay: index * 0.2 }}
                   >
                     <div className="text-sm/7 font-bold md:text-lg">{`${
                       exp.company ? exp.company : ""
@@ -43,14 +47,16 @@ function Experience() {
                       exp.role ? exp.role : ""
                     } ,  ${exp.location ? exp.location : ""}`}</div>
                     <div className="text-[.6rem] md:text-sm">
-                      {exp.activity ? 
-                      exp.activity.map((act,index)=><li key={index}>{act}</li>) :
-                       ""}
+                      {exp.activity
+                        ? exp.activity.map((act, index) => (
+                            <li key={index}>{act}</li>
+                          ))
+                        : ""}
                     </div>
                     <div className="text-[.6rem] md:text-xs pt-2 text-amber-100">{`Focus : ${
                       exp.skills ? exp.skills : ""
                     }`}</div>
-                  </motion.div>
+                  </div>
                 ) : (
                   <div className="ml-5   p-5  w-xs  md:w-2xl   md:bg-dark md:p-5 text-left">
                     <div className="text-lg">{`${

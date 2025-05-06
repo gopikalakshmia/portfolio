@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import mail from "../assets/mail.jpg";
+import mail from "../assets/Images/mail.jpg";
 import emailjs from "@emailjs/browser";
 function Contact() {
   const form = useRef();
