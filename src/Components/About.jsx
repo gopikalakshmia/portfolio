@@ -10,19 +10,17 @@ function About() {
     >
         <div className="text-xs  text-justify p-5 md:text-base md:w-3/4 lg:text-md" >
         <h1 className=" text-2xl md:text-justify  pb-2 md:mb-5 flex"><img src={aboutme} className='size-7'/>{`  About Me`}</h1>
-        <p>With five years of experience as an ASP.NET developer at Cognizant,  I specialize in ASP.NET MVC, SSRS, SQL, and TypeScript.
+        <p>I'm a passionate Software Developer with over five years of professional experience, specializing in ASP.NET MVC, SSRS, SQL, and TypeScript. I began my journey at Cognizant, where I contributed to impactful enterprise solutions, and later expanded my skills through freelancing and continuous learning.
          </p>
          <br/>
-        <p>After taking a career break to focus on my family, I stayed connected to the tech world by earning certifications in UiPath and 
-            MEAN Stack development. I have worked as a freelance React developer, creating user-friendly applications that enhance user experiences.
+        <p>As life led me across countries and into new roles, I embraced every transition as a chance to grow—personally and professionally. I expanded my skill set with certifications in UiPath and MEAN Stack development, and explored modern frameworks like React and Next.js through freelance projects and advanced coursework.
         </p>
              <br/>
-             <p>Currently upskilling in React through various courses to stay ahead in the ever-evolving tech landscape. 
-                I love learning new technologies and applying them to build efficient, scalable solutions. </p>
+             <p>My enthusiasm for technology has only deepened over the years. I’m currently volunteering as a web developer on platforms like Catchafire and VolunteerMatch, contributing to nonprofit projects that make a real difference. These experiences have strengthened my communication, adaptability, and problem-solving skills, while keeping me hands-on with the latest tools and best practices. </p>
              <br/>
-             <p>I am also actively volunteering as a web developer with Catchafire and VolunteerMatch, contributing to nonprofit projects and using my skills to make a positive impact in the community. </p>
+             <p>Alongside actively upskilling in React, I’m also refreshing and deepening my expertise in .NET technologies, including .NET Core and API development, to stay aligned with modern backend development standards. I love applying what I learn to build clean, efficient, and impactful web applications.</p>
              <br/>
-             <p>I am back with a fresh set of eyes, excited for new opportunities and challenges—let’s connect 😀 </p>
+             <p>I’m excited to connect with like-minded professionals and explore opportunities to collaborate, learn, and make a meaningful impact together. 😊</p>
         </div>
         <motion.div className="max-md:hidden md:visible w-2/4 "
            initial={{ opacity:0 }}
